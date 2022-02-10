@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "256f91b4-c9db-4b27-953c-4e59c779fced": {
+      "ProjectGuid": "256f91b4-c9db-4b27-953c-4e59c779fced",
+      "DisplayName": "Furever.Api",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

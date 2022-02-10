@@ -1,0 +1,12 @@
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\bin\Debug\net5.0\Furever.LoggerService.deps.json
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\bin\Debug\net5.0\Furever.LoggerService.dll
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\bin\Debug\net5.0\ref\Furever.LoggerService.dll
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\bin\Debug\net5.0\Furever.LoggerService.pdb
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\obj\Debug\net5.0\Furever.LoggerService.csproj.AssemblyReference.cache
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\obj\Debug\net5.0\Furever.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\obj\Debug\net5.0\Furever.LoggerService.AssemblyInfoInputs.cache
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\obj\Debug\net5.0\Furever.LoggerService.AssemblyInfo.cs
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\obj\Debug\net5.0\Furever.LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\obj\Debug\net5.0\Furever.LoggerService.dll
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\obj\Debug\net5.0\ref\Furever.LoggerService.dll
+C:\Users\flyns\source\repos\Furever\Furever.LoggerService\obj\Debug\net5.0\Furever.LoggerService.pdb

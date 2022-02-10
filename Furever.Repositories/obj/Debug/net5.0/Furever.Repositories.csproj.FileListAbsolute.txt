@@ -1,0 +1,15 @@
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\bin\Debug\net5.0\Furever.Repositories.deps.json
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\bin\Debug\net5.0\Furever.Repositories.dll
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\bin\Debug\net5.0\ref\Furever.Repositories.dll
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\bin\Debug\net5.0\Furever.Repositories.pdb
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\bin\Debug\net5.0\Furever.Entities.dll
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\bin\Debug\net5.0\Furever.Entities.pdb
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\obj\Debug\net5.0\Furever.Repositories.csproj.AssemblyReference.cache
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\obj\Debug\net5.0\Furever.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\obj\Debug\net5.0\Furever.Repositories.AssemblyInfoInputs.cache
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\obj\Debug\net5.0\Furever.Repositories.AssemblyInfo.cs
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\obj\Debug\net5.0\Furever.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\obj\Debug\net5.0\Furever.Repositories.csproj.CopyComplete
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\obj\Debug\net5.0\Furever.Repositories.dll
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\obj\Debug\net5.0\ref\Furever.Repositories.dll
+C:\Users\flyns\source\repos\Furever\Furever.Repositories\obj\Debug\net5.0\Furever.Repositories.pdb
