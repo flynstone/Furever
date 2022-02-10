@@ -6,4 +6,3 @@
 
 3 - Open the nlog.config file and change line 6 and 10 with project location on your computer. Change C:\Users\flyns\source\repos\
 
-
