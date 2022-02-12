@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Furever.Entities.Models
 {
@@ -9,10 +8,10 @@ namespace Furever.Entities.Models
         // Primary Key
         public int Id { get; set; }
 
-        [Required, MaxLength(50)]
+        [Required, MaxLength(50)] // Specify maximum length of the column in the db
         public string Username { get; set; }
 
-        [Required, MaxLength(50)] // Specify maximum length of the column in the db
+        [Required, MaxLength(50)] 
         public string FirstName { get; set; }
 
         [Required, MaxLength(50)] 

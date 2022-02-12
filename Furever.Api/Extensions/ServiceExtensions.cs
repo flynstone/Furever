@@ -45,7 +45,14 @@ namespace Furever.Api.Extensions
         {
             services.AddSwaggerGen(s =>
             {
-                services.AddSwaggerGen(s => { s.SwaggerDoc("v1", new OpenApiInfo { Title = "Furever Api", Version = "v1" }); });
+                services.AddSwaggerGen(s => 
+                { 
+                    s.SwaggerDoc("v1", new OpenApiInfo 
+                    { 
+                        Title = "Furever Api", 
+                        Version = "v1" 
+                    }); 
+                });
             });   
         }
 
@@ -53,8 +60,8 @@ namespace Furever.Api.Extensions
         public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<AppDbContext>(opts =>
-                //opts.UseSqlite(configuration.GetConnectionString("sqlConnection"), (b => b.MigrationsAssembly("Furever.Api"))));
-                opts.UseSqlServer(configuration.GetConnectionString("sqlConnection"), (b => b.MigrationsAssembly("Furever.Api"))));
+                opts.UseSqlite(configuration.GetConnectionString("sqlConnection"), (b => b.MigrationsAssembly("Furever.Api"))));
+                //opts.UseSqlServer(configuration.GetConnectionString("sqlConnection"), (b => b.MigrationsAssembly("Furever.Api"))));
         }
 
     }

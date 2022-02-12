@@ -10,7 +10,7 @@ namespace Furever.Entities.DataTransferObjects.Animals
         public string Name { get; set; }
 
         public int CategoryId { get; set; }
-        public int OwnerId { get; set; }
+        public int RefugeId { get; set; }
         public bool IsAvailable { get; set; }
 
         public DateTime? DateOfBirth { get; set; }
