@@ -11,16 +11,18 @@ namespace Furever.Api.Extensions
         public MappingProfile()
         {
             // Map Entities (Models) to Data Transfer Object (see WebApp.Entities)
-            CreateMap<Animal, AnimalDto>()
-                .ForMember(a => a.Category, options => options.MapFrom(e => e.Category.Species))
-                .ForMember(a => a.User, options => options.MapFrom(e => e.Refuge.Username));
-            CreateMap<AnimalCreationDto, Animal>();
+
 
             CreateMap<Category, CategoryDto>().ReverseMap();
             CreateMap<CategoryCreationDto, Category>();
 
             CreateMap<Refuge, RefugeDto>().ReverseMap();
             CreateMap<RefugeCreationDto, Refuge>();
+
+            CreateMap<Animal, AnimalDto>()
+                .ForMember(a => a.Category, options => options.MapFrom(x => x.Category.Species))
+                .ForMember(a => a.Refuge, options => options.MapFrom(e => e.Refuge.Username));
+            CreateMap<AnimalCreationDto, Animal>();
         }
     }
 }

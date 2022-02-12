@@ -9,7 +9,7 @@ namespace Furever.Entities.DataTransferObjects.Animals
         public string Name { get; set; }
 
         public string Category { get; set; }
-        public string User { get; set; }
+        public string Refuge { get; set; }
         public bool IsAvailable { get; set; }
 
         public DateTime? DateOfBirth { get; set; }

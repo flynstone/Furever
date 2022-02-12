@@ -15,7 +15,10 @@ namespace Furever.Repositories
 
         public async Task<IEnumerable<Animal>> GetAnimals()
         {
-            return await _context.Animals.ToListAsync();
+            return await _context.Animals
+                .Include(c => c.Category)
+                .Include(r => r.Refuge)
+                .ToListAsync();
         }
 
         public async Task<Animal> GetAnimal(int id)

@@ -7,6 +7,8 @@ using Furever.Entities.DataTransferObjects.Animals;
 using Furever.Entities.Models;
 using Furever.LoggerService;
 using Furever.Repositories.Interfaces;
+using Furever.Entities.DataTransferObjects.Categories;
+using Furever.Entities.DataTransferObjects.Refuges;
 
 namespace Furever.Api.Controllers
 {
@@ -123,6 +125,32 @@ namespace Furever.Api.Controllers
             await _unitOfWork.Animal.DeleteAnimal(animal);
             await _unitOfWork.SaveAsync();
             return NoContent();
+        }
+
+        [HttpGet("categories")]
+        public async Task<IActionResult> GetCategories()
+        {
+            // Get categories from repository, store the result in animals variable
+            var category = await _unitOfWork.Category.GetCategories();
+
+            // Map Data Transfer Object To Entity (see Extensions/MappingProfile.cs), 
+            var categoryDto = _mapper.Map<IEnumerable<CategoryDto>>(category);
+
+            // Return Animals 
+            return Ok(categoryDto);
+        }
+
+        [HttpGet("refuges")]
+        public async Task<IActionResult> GetRefuges()
+        {
+            // Get categories from repository, store the result in animals variable
+            var refuge = await _unitOfWork.Refuge.GetRefuges();
+
+            // Map Data Transfer Object To Entity (see Extensions/MappingProfile.cs), 
+            var refugeDto = _mapper.Map<IEnumerable<RefugeDto>>(refuge);
+
+            // Return Animals 
+            return Ok(refugeDto);
         }
     }
 }

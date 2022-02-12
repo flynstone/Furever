@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Furever.Entities.Models
 {
@@ -6,5 +8,7 @@ namespace Furever.Entities.Models
     {
         public int Id { get; set; }
         public string Species { get; set; }
+
+        public ICollection<Animal> Animals { get; set; }
     }
 }
