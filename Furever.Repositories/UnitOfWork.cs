@@ -8,6 +8,8 @@ namespace Furever.Repositories
     {
         private readonly AppDbContext _context;
         private IAnimalRepository _animalRepository;
+        private ICategoryRepository _categoryRepository;
+        private IRefugeRepository _refugeRepository;
 
         public UnitOfWork(AppDbContext context)
         {
@@ -21,6 +23,26 @@ namespace Furever.Repositories
                 if (_animalRepository == null)
                     _animalRepository = new AnimalRepository(_context);
                 return _animalRepository;
+            }
+        }
+
+        public ICategoryRepository Category
+        {
+            get
+            {
+                if (_categoryRepository == null)
+                    _categoryRepository = new CategoryRepository(_context);
+                return _categoryRepository;
+            }
+        }
+
+        public IRefugeRepository Refuge
+        {
+            get
+            {
+                if (_refugeRepository == null)
+                    _refugeRepository = new RefugeRepository(_context);
+                return _refugeRepository;
             }
         }
 

@@ -10,6 +10,7 @@ using Furever.Repositories.Interfaces;
 
 namespace Furever.Api.Controllers
 {
+    [AllowAnonymous]
     [Route("api/animals")]
     [ApiController]
     public class AnimalsController : Controller
@@ -26,7 +27,7 @@ namespace Furever.Api.Controllers
         }
 
         // api/animals
-        [Authorize] // This is needed to allow authorized users, we could of added [AllowAnonymous] instead to allow anyone to view information (Make it Public)
+        // [Authorize] // This is needed to allow authorized users, we could of added [AllowAnonymous] instead to allow anyone to view information (Make it Public)
         [HttpGet]
         public async Task<IActionResult> GetAnimals()
         {

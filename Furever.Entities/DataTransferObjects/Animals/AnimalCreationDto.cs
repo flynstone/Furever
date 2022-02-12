@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Furever.Entities.DataTransferObjects.Animals
 {
@@ -6,6 +7,14 @@ namespace Furever.Entities.DataTransferObjects.Animals
     {
         [Required(ErrorMessage = "The field with name {0} is required")]
         [StringLength(50)]
-        public string Species { get; set; }
+        public string Name { get; set; }
+
+        public int CategoryId { get; set; }
+        public int OwnerId { get; set; }
+        public bool IsAvailable { get; set; }
+
+        public DateTime? DateOfBirth { get; set; }
+
+        public DateTime CreatedDate { get; set; }
     }
 }

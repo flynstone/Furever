@@ -7,8 +7,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
 
 namespace Furever.Api.Extensions
 {
@@ -38,6 +36,8 @@ namespace Furever.Api.Extensions
         {
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IAnimalRepository, AnimalRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IRefugeRepository, RefugeRepository>();
         }
 
         // Configure Swagger
@@ -45,52 +45,15 @@ namespace Furever.Api.Extensions
         {
             services.AddSwaggerGen(s =>
             {
-                s.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Title = "Furever Api",
-                    Version = "v1",
-                    Description = "Lighthouse Labs Final Project",
-                    TermsOfService = new Uri("https://localhost:44369/terms-of-service"),
-                    Contact = new OpenApiContact
-                    {
-                        Name = "Julien Lacroix",
-                        Email = "flynstone@x-coreweb.com",
-                        Url = new Uri("https://x-coreweb.com")
-                    }
-                });
-
-                s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-                {
-                    In = ParameterLocation.Header,
-                    Description = "Place to add JWT with Bearer",
-                    Name = "Authorization",
-                    Type = SecuritySchemeType.ApiKey,
-                    Scheme = "Bearer"
-                });
-
-                s.AddSecurityRequirement(new OpenApiSecurityRequirement()
-                {
-                    {
-                        new OpenApiSecurityScheme
-                        {
-                            Reference = new OpenApiReference
-                            {
-                                Type = ReferenceType.SecurityScheme,
-                                Id = "Bearer"
-                            },
-                            Name = "Bearer",
-                        },
-                        new List<string>()
-                    }
-
-                });
-            });
+                services.AddSwaggerGen(s => { s.SwaggerDoc("v1", new OpenApiInfo { Title = "Furever Api", Version = "v1" }); });
+            });   
         }
 
         // Configure SQL Server
         public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<AppDbContext>(opts =>
+                //opts.UseSqlite(configuration.GetConnectionString("sqlConnection"), (b => b.MigrationsAssembly("Furever.Api"))));
                 opts.UseSqlServer(configuration.GetConnectionString("sqlConnection"), (b => b.MigrationsAssembly("Furever.Api"))));
         }
 

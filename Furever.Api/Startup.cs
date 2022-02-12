@@ -23,7 +23,7 @@ namespace Furever.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
             services.ConfigureSwagger();
             services.ConfigureSqlContext(Configuration);
@@ -43,8 +43,6 @@ namespace Furever.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Furever.Api v1"));
             }
             else
             {
@@ -66,6 +64,12 @@ namespace Furever.Api
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(s =>
+            {
+                s.SwaggerEndpoint("/swagger/v1/swagger.json", "Furever Api");
+            });
 
             app.UseEndpoints(endpoints =>
             {
