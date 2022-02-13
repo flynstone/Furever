@@ -25,7 +25,7 @@ const refuge =  {
         <div>{refuge.address}</div>
         <div>{refuge.postal}</div>
       </div>
-      <div className='AnimalImage'>IMAGE</div>
+      <div className='AnimalPopImage'>IMAGE</div>
       <div className='AnimalDesc'>
         <h4>Hello my name is {animal.name}</h4>
         <div>{animal.desc}</div>
