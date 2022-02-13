@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.LoggerService/Furever.LoggerService.csproj": {}
+    "/home/reflekshn/lighthouse/Furever/Furever.LoggerService/Furever.LoggerService.csproj": {}
   },
   "projects": {
-    "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.LoggerService/Furever.LoggerService.csproj": {
+    "/home/reflekshn/lighthouse/Furever/Furever.LoggerService/Furever.LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.LoggerService/Furever.LoggerService.csproj",
+        "projectUniqueName": "/home/reflekshn/lighthouse/Furever/Furever.LoggerService/Furever.LoggerService.csproj",
         "projectName": "Furever.LoggerService",
-        "projectPath": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.LoggerService/Furever.LoggerService.csproj",
-        "packagesPath": "/Users/neavy/.nuget/packages/",
-        "outputPath": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.LoggerService/obj/",
+        "projectPath": "/home/reflekshn/lighthouse/Furever/Furever.LoggerService/Furever.LoggerService.csproj",
+        "packagesPath": "/home/reflekshn/.nuget/packages/",
+        "outputPath": "/home/reflekshn/lighthouse/Furever/Furever.LoggerService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/neavy/.nuget/NuGet/NuGet.Config"
+          "/home/reflekshn/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -956,19 +956,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/neavy/.nuget/packages/": {}
+    "/home/reflekshn/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.Repositories/Furever.Repositories.csproj",
+      "projectUniqueName": "/home/reflekshn/lighthouse/Furever/Furever.Repositories/Furever.Repositories.csproj",
       "projectName": "Furever.Repositories",
-      "projectPath": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.Repositories/Furever.Repositories.csproj",
-      "packagesPath": "/Users/neavy/.nuget/packages/",
-      "outputPath": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.Repositories/obj/",
+      "projectPath": "/home/reflekshn/lighthouse/Furever/Furever.Repositories/Furever.Repositories.csproj",
+      "packagesPath": "/home/reflekshn/.nuget/packages/",
+      "outputPath": "/home/reflekshn/lighthouse/Furever/Furever.Repositories/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/neavy/.nuget/NuGet/NuGet.Config"
+        "/home/reflekshn/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -980,8 +980,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.Entities/Furever.Entities.csproj": {
-              "projectPath": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.Entities/Furever.Entities.csproj"
+            "/home/reflekshn/lighthouse/Furever/Furever.Entities/Furever.Entities.csproj": {
+              "projectPath": "/home/reflekshn/lighthouse/Furever/Furever.Entities/Furever.Entities.csproj"
             }
           }
         }
@@ -1010,7 +1010,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

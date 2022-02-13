@@ -22,3 +22,15 @@ C:/Users/flyns/source/repos/Furever/Furever.LoggerService/obj/Debug/net5.0/Furev
 /Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.dll
 /Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.LoggerService/obj/Debug/net5.0/ref/Furever.LoggerService.dll
 /Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.pdb
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/bin/Debug/net5.0/Furever.LoggerService.deps.json
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/bin/Debug/net5.0/Furever.LoggerService.dll
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/bin/Debug/net5.0/ref/Furever.LoggerService.dll
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/bin/Debug/net5.0/Furever.LoggerService.pdb
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.csproj.AssemblyReference.cache
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.AssemblyInfoInputs.cache
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.AssemblyInfo.cs
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.csproj.CoreCompileInputs.cache
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.dll
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/obj/Debug/net5.0/ref/Furever.LoggerService.dll
+/home/reflekshn/lighthouse/Furever/Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.pdb
