@@ -4,11 +4,13 @@ import AnimalPopUp from '../AnimalPopUp';
 
 const ANIMALS = [
   {
+    IMG: 'IMAGE',
     name: 'Animal #1',
-  },
-  {
-    name: 'Animal #2',
-  },
+    age: '3',
+    breed: 'cat'
+  }
+  
+
 ]
 
 const Home = ({ name }) => {
@@ -16,6 +18,7 @@ const Home = ({ name }) => {
 
   return (
     <div>
+      <h1>Find your Soulmate</h1>
       {ANIMALS.map(animal => (
         <Animal animal={animal} setSelectedAnimal={setSelectedAnimal} />
       ))}

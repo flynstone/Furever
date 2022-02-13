@@ -1,0 +1,17 @@
+.AnimalTile {
+  border: 3px solid;
+  height: 20rem;
+  width: 20rem;
+}
+
+.AnimalImage {
+  height: 70%;
+  width: 100%;
+}
+
+.AnimalInfo {
+  display: flex;
+  justify-content: space-around;
+  border-top: 3px solid;
+  width: 100%;
+}
