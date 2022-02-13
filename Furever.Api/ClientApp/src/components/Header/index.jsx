@@ -1,12 +1,12 @@
 import React from 'react';
-import './Header.css'
+import './Header.css';
 
 const Header = () => {
   return (
     <div className='Header'>
-      <div>Profile</div> 
-      <div>Furever Home</div>
-      <div>Extra parameters</div>
+      <button>Profile</button>
+      <h2>Furever Home</h2>
+      <button>Extra parameters</button>
     </div>
   )
 }
