@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <div>
-     <div>Profile</div> 
+      <div>Profile</div> 
       <div>Furever Home</div>
       <div>Extra parameters</div>
     </div>
