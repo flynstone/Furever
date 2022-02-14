@@ -231,6 +231,7 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 
+#credentials
 appsettings.json
 appsettings.Development.json
 nlog.config
