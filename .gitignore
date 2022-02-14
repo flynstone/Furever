@@ -1,2 +1,7 @@
 #node modules
 node_modules
+Furever.Api/appsettings.json
+Furever.Api/NLog/internal_logs/internallog.txt
+.vs/Furever/v17/.futdcache.v1
+.vs/Furever/v17/.suo
+.vs/Furever/DesignTimeBuild/.dtbcache.v2
