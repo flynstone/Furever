@@ -1110,24 +1110,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/neavy/.nuget/packages/": {}
+    "C:\\Users\\refle\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.Entities/Furever.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\refle\\Documents\\Furever\\Furever.Entities\\Furever.Entities.csproj",
       "projectName": "Furever.Entities",
-      "projectPath": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.Entities/Furever.Entities.csproj",
-      "packagesPath": "/Users/neavy/.nuget/packages/",
-      "outputPath": "/Users/neavy/Desktop/Coding/LHL/Bootcamp/Furever/Furever.Entities/obj/",
+      "projectPath": "C:\\Users\\refle\\Documents\\Furever\\Furever.Entities\\Furever.Entities.csproj",
+      "packagesPath": "C:\\Users\\refle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\refle\\Documents\\Furever\\Furever.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/neavy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\refle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1171,12 +1173,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
