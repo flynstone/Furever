@@ -257,7 +257,7 @@ namespace Furever.Api.Migrations
             modelBuilder.Entity("Furever.Entities.Models.Animal", b =>
                 {
                     b.HasOne("Furever.Entities.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Animals")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -295,6 +295,11 @@ namespace Furever.Api.Migrations
             modelBuilder.Entity("Furever.Entities.Models.Animal", b =>
                 {
                     b.Navigation("Favorites");
+                });
+
+            modelBuilder.Entity("Furever.Entities.Models.Category", b =>
+                {
+                    b.Navigation("Animals");
                 });
 
             modelBuilder.Entity("Furever.Entities.Models.Refuge", b =>
