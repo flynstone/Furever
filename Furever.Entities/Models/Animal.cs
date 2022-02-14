@@ -9,7 +9,7 @@ namespace Furever.Entities.Models
         // Primary Key
         public int Id { get; set; }
         public string Name { get; set; }
-
+        
         /// <summary>
         /// Link tables
         /// </summary>
