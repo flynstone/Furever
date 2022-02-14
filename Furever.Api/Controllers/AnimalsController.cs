@@ -137,6 +137,30 @@ namespace Furever.Api.Controllers
             var categoryDto = _mapper.Map<IEnumerable<CategoryDto>>(category);
 
             // Return Animals 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             return Ok(categoryDto);
         }
 
