@@ -3,16 +3,8 @@ import './animalPopUp.css'
 
 const AnimalPopUp = (props) => {
   
-// const animalData = {
-//   name: "Rex",
-//   desc: "I am a good boy looking for my furever home with a human who can match my enrgy level. I love long walks on the beach and snuggles with my hooman!"
-// }
-// const refuge =  {
-//   name: "SPCA de Montreal",
-//   address: '123 Decarie Est',
-//   postal: 'H3E 1V9'
-// }
   console.log("this is prooooooops ---->", props )
+  
   return (props.trigger) ? (
     <div className='AnimalPopUp'>
       <div className='AnimalPopUpInner'>
