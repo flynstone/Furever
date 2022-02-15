@@ -9,55 +9,97 @@ const ANIMALS = [
     IMG: 'IMAGE',
     name: 'Animal #1',
     age: '3',
-    breed: 'cat'
+    breed: 'cat',
+    description: 'Loving cutie looking for its furever home',
+    refuge: {
+      name: "SPCA de Montreal",
+      address: '123 Decarie Est',
+      postal: 'H3E 1V9'
+    }
   },
   {
     IMG: 'IMAGE',
     name: 'Animal #2',
     age: '6',
-    breed: 'dog'
+    breed: 'dog',
+    description: 'Loving cutie looking for its furever home',
+    refuge: {
+      name: "SPCA de Montreal",
+      address: '123 Decarie Est',
+      postal: 'H3E 1V9'
+    } 
   },
   
   {
     IMG: 'IMAGE',
     name: 'Animal #3',
     age: '7',
-    breed: 'dog'
+    breed: 'dog',
+    description: 'Loving cutie looking for its furever home',
+    refuge: {
+      name: "SPCA de Montreal",
+      address: '123 Decarie Est',
+      postal: 'H3E 1V9'
+    }
   },
 
   {
     IMG: 'IMAGE',
     name: 'Animal #4',
     age: '1',
-    breed: 'cat'
+    breed: 'cat',
+    description: 'Loving cutie looking for its furever home',
+    refuge: {
+      name: "SPCA de Montreal",
+      address: '123 Decarie Est',
+      postal: 'H3E 1V9'
+    }
   },
 
   {
     IMG: 'IMAGE',
     name: 'Animal #5',
     age: '10',
-    breed: 'cat'
+    breed: 'cat',
+    description: 'Loving cutie looking for its furever home',
+    refuge: {
+      name: "SPCA de Montreal",
+      address: '123 Decarie Est',
+      postal: 'H3E 1V9'
+    }
   },
 
   {
     IMG: 'IMAGE',
     name: 'Animal #6',
     age: '8',
-    breed: 'dog'
+    breed: 'dog',
+    description: 'Loving cutie looking for its furever home',
+    refuge: {
+      name: "SPCA de Montreal",
+      address: '123 Decarie Est',
+      postal: 'H3E 1V9'
+    }
   },
 
   {
     IMG: 'IMAGE',
     name: 'Animal #7',
     age: '12',
-    breed: 'dog'
+    breed: 'dog',
+    description: 'Loving cutie looking for its furever home',
+    refuge: {
+      name: "SPCA de Montreal",
+      address: '123 Decarie Est',
+      postal: 'H3E 1V9'
+    }
   }
 
 ]
 
 const Home = ({ name }) => {
+  
   const [selectedAnimal, setSelectedAnimal] = useState(false);
-  // const [buttonPopUp, setButtonPopUp] = useState (false);
 
   return (
     <div>
