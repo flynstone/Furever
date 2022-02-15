@@ -10,6 +10,8 @@ namespace Furever.Entities.Models
         public int Id { get; set; }
         public string Name { get; set; }
 
+        public string Description { get; set; }
+
         /// <summary>
         /// Link tables
         /// </summary>

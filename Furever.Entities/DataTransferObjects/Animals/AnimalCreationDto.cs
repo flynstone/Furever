@@ -9,6 +9,8 @@ namespace Furever.Entities.DataTransferObjects.Animals
         [StringLength(50)]
         public string Name { get; set; }
 
+        public string Description { get; set; }
+
         public int CategoryId { get; set; }
         public int RefugeId { get; set; }
         public bool IsAvailable { get; set; }
