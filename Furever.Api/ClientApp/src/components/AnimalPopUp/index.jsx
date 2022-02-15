@@ -18,7 +18,7 @@ const refuge =  {
       <div className='AnimalPopUpInner'>
         <div className='PopUpHeader'>
           <h3>A little more about me</h3>
-          <button className='close-btn'>X button</button>
+          <button className='close-btn' onClick={() => props.setTrigger(false)}>X button</button>
         </div>
         { props.children }
         <div className='RefugeInfo'>

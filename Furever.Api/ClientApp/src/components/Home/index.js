@@ -67,11 +67,8 @@ const Home = ({ name }) => {
           <Animal animal={animal} setSelectedAnimal={setSelectedAnimal} />
         ))}
       </div>
-      <AnimalPopUp trigger={selectedAnimal} animal={selectedAnimal} setSelectedAnimal={setSelectedAnimal}>
+      <AnimalPopUp trigger={selectedAnimal} setTrigger={setSelectedAnimal} animal={selectedAnimal} setSelectedAnimal={setSelectedAnimal}>
       </AnimalPopUp>
-      {/* {selectedAnimal !== null (
-        <AnimalPopUp animal={selectedAnimal} setSelectedAnimal={setSelectedAnimal} />
-      )} */}
     </div>
   );
 }
