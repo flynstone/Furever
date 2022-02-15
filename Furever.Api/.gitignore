@@ -235,3 +235,7 @@ _Pvt_Extensions
 appsettings.json
 appsettings.Development.json
 nlog.config
+
+#cache
+Furever.Entities/obj/Debug/net5.0/Furever.Entities.csproj.AssemblyReference.cache
+Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.csproj.AssemblyReference.cache

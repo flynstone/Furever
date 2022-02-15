@@ -14,7 +14,7 @@ const AnimalPopUp = (props) => {
         </div>
 
         <div className='RefugeInfo'>
-          <h6>{props.trigger.name} currently await his furever home at:</h6>
+          <h6>{props.trigger.name} currently await his furever home at :</h6>
           <div>{props.trigger.refuge.name}</div>
           <div>{props.trigger.refuge.address}</div>
           <div>{props.trigger.refuge.postal}</div>
