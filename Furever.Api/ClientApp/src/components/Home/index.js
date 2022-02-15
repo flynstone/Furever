@@ -56,7 +56,8 @@ const ANIMALS = [
 ]
 
 const Home = ({ name }) => {
-  const [selectedAnimal, setSelectedAnimal] = useState(null);
+  const [selectedAnimal, setSelectedAnimal] = useState(false);
+  // const [buttonPopUp, setButtonPopUp] = useState (false);
 
   return (
     <div>
@@ -66,6 +67,8 @@ const Home = ({ name }) => {
           <Animal animal={animal} setSelectedAnimal={setSelectedAnimal} />
         ))}
       </div>
+      <AnimalPopUp trigger={selectedAnimal} animal={selectedAnimal} setSelectedAnimal={setSelectedAnimal}>
+      </AnimalPopUp>
       {/* {selectedAnimal !== null (
         <AnimalPopUp animal={selectedAnimal} setSelectedAnimal={setSelectedAnimal} />
       )} */}
