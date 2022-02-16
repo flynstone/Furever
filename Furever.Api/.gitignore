@@ -235,4 +235,4 @@ _Pvt_Extensions
 appsettings.json
 appsettings.Development.json
 nlog.config
-**/*.NLog/
+Furever.Api/NLog\internal_logs\internallog.txt
