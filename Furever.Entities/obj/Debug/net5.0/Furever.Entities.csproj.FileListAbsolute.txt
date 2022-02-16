@@ -42,3 +42,4 @@ C:\Users\flyns\source\repos\Furever\Furever.Entities\obj\Debug\net5.0\Furever.En
 C:\Users\flyns\source\repos\Furever\Furever.Entities\obj\Debug\net5.0\ref\Furever.Entities.dll
 C:\Users\flyns\source\repos\Furever\Furever.Entities\obj\Debug\net5.0\Furever.Entities.pdb
 C:\Users\flyns\source\repos\Furever\Furever.Entities\obj\Debug\net5.0\Furever.Entities.genruntimeconfig.cache
+C:\Users\flyns\source\repos\Furever\Furever.Entities\obj\Debug\net5.0\Furever.Entities.csproj.AssemblyReference.cache
