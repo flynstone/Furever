@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "44jYfxDkxQrh/sIrjqnjvI+OBLZO4mBlp0uv5K0GTcB28ALEgqxhLsloaiCoykApBZl4r1+ySF9/k8A7Cy0GgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\flyns\\source\\repos\\Furever\\Furever.Client\\Furever.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flyns\\.nuget\\packages\\identitymodel\\5.2.0\\identitymodel.5.2.0.nupkg.sha512",
+    "C:\\Users\\flyns\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.14\\microsoft.aspnetcore.authentication.openidconnect.5.0.14.nupkg.sha512",
+    "C:\\Users\\flyns\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\flyns\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.7.1\\microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
+    "C:\\Users\\flyns\\.nuget\\packages\\microsoft.identitymodel.logging\\6.7.1\\microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "C:\\Users\\flyns\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.7.1\\microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
+    "C:\\Users\\flyns\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
+    "C:\\Users\\flyns\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
+    "C:\\Users\\flyns\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.7.1\\system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
+    "C:\\Users\\flyns\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
