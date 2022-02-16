@@ -956,19 +956,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\refle\\.nuget\\packages\\": {}
+    "C:\\Users\\flyns\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\refle\\Documents\\Furever\\Furever.Repositories\\Furever.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\flyns\\source\\repos\\Furever\\Furever.Repositories\\Furever.Repositories.csproj",
       "projectName": "Furever.Repositories",
-      "projectPath": "C:\\Users\\refle\\Documents\\Furever\\Furever.Repositories\\Furever.Repositories.csproj",
-      "packagesPath": "C:\\Users\\refle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\refle\\Documents\\Furever\\Furever.Repositories\\obj\\",
+      "projectPath": "C:\\Users\\flyns\\source\\repos\\Furever\\Furever.Repositories\\Furever.Repositories.csproj",
+      "packagesPath": "C:\\Users\\flyns\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\flyns\\source\\repos\\Furever\\Furever.Repositories\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\refle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\flyns\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -982,8 +987,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\refle\\Documents\\Furever\\Furever.Entities\\Furever.Entities.csproj": {
-              "projectPath": "C:\\Users\\refle\\Documents\\Furever\\Furever.Entities\\Furever.Entities.csproj"
+            "C:\\Users\\flyns\\source\\repos\\Furever\\Furever.Entities\\Furever.Entities.csproj": {
+              "projectPath": "C:\\Users\\flyns\\source\\repos\\Furever\\Furever.Entities\\Furever.Entities.csproj"
             }
           }
         }
@@ -1007,26 +1012,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
