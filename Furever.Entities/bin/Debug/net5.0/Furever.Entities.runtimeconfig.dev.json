@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\refle\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\refle\\.nuget\\packages"
+      "/Users/neavy/.dotnet/store/|arch|/|tfm|",
+      "/Users/neavy/.nuget/packages"
     ]
   }
 }
