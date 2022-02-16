@@ -235,3 +235,9 @@ _Pvt_Extensions
 appsettings.json
 appsettings.Development.json
 nlog.config
+Furever.Entities/obj/Debug/net5.0/Furever.Entities.assets.cache
+Furever.LoggerService/obj/Debug/net5.0/Furever.LoggerService.assets.cache
+Furever.Repositories/obj/Debug/net5.0/Furever.Repositories.assets.cache
+.vs/Furever/v17/.suo
+.vs/Furever/v17/.futdcache.v1
+.vs/Furever/DesignTimeBuild/.dtbcache.v2
